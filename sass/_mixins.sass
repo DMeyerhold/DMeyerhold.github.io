@@ -1,0 +1,50 @@
+@mixin cap_dark
+	width: 115px
+	height: 25px
+	background-color: $bg_dark
+	color: #fff
+	margin: 0 auto
+	font-weight: 400
+	font-size: 11px
+	line-height: 11px
+	text-transform: uppercase
+	text-align: center
+	padding-top: 7px
+
+@mixin cap_light
+	width: 115px
+	height: 25px
+	background-color: #fff
+	color: #070716
+	margin: 0 auto
+	font-weight: 400
+	font-size: 11px
+	line-height: 11px
+	text-transform: uppercase
+	text-align: center
+	padding-top: 7px
+
+@mixin section_header
+	color: $text_dark
+	text-transform: uppercase
+	text-align: center
+	font-weight: 700
+	font-size: $font_big
+	line-height: $font_big
+
+@mixin section_subheader
+	font-weight: 400
+	font-size: $font_small
+	line-height: 21px
+	color: $text_dark
+	margin: 0 auto
+	text-align: center
+	
+@mixin btn_hover
+	&:hover
+		background-image: none
+		background-color: $primary_color
+
+@mixin btn_active
+	&:active
+		opacity: 0.9
