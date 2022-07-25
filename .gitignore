@@ -31,3 +31,5 @@ style.sass
 
 ../package-lock.json
 ../package.json
+
+../gulpfile.js
