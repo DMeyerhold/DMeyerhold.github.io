@@ -1,7 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-./node_modules
+/node_modules
+node_modules/*
 
 # testing
 /coverage
@@ -27,3 +28,6 @@ _media.sass
 _mixins.sass
 _variables.sass
 style.sass
+
+../package-lock.json
+../package.json
