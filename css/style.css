@@ -110,7 +110,6 @@ header .subheader .xs-visible {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
   color: #fff;
   text-transform: uppercase;
-  margin-top: 0 !important;
 }
 .btn:hover {
   background-image: none;
@@ -920,7 +919,7 @@ footer .footer_mobile a img {
             justify-content: center;
     -webkit-box-align: end;
         -ms-flex-align: end;
-            align-items: end;
+            align-items: flex-end;
   }
   header .subheader .xs-visible {
     display: block;
