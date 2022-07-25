@@ -21,9 +21,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # sass
-_general.sass
+/sass
+sass/_general.sass
 _media.sass
 _mixins.sass
 _variables.sass
 style.sass
-/sass
